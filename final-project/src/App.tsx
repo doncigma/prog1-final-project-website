@@ -1,15 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import SearchBar from "./PokemonExplorer";
 
-function App2() {
+function App() {
   return (
     <div className="App">
-      <h1> Welcome to the Pokemon Adoption Center (Test)</h1>
+      <h1> Welcome to the Pokemon Adoption Center </h1>
      
       <div className='App-mainsection'> 
         <h2>Pokemon Explorer</h2>
-    
+          <SearchBar/>
       </div>
       <div className='App-mainsection'> 
         <h2>Meet the Caretakers</h2>
@@ -41,4 +40,4 @@ function App2() {
   );
 }
 
-export default App2;
+export default App;
