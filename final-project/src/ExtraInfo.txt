@@ -1,0 +1,12 @@
+
+/*
+function errorDisplay(status: boolean) {
+  let error = ""
+  if (!status) {
+    error = "FAIL"
+    return error
+  }
+  else return null;
+}
+
+export default errorDisplay */
